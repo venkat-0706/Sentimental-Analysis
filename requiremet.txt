@@ -1,0 +1,15 @@
+Software Dependencies:
+
+Python: The code utilizes Python for data manipulation and analysis.
+Libraries: Several libraries are required, including:
+pandas for data import and manipulation
+nltk for text processing techniques like tokenization, stop word removal, stemming, and lemmatization
+matplotlib and seaborn for data visualization (word cloud, bar chart)
+collections for counting word frequencies (optional)
+contractions for handling contractions (optional)
+emoji for handling emojis (optional)
+beautifulsoup4 for removing HTML tags (optional)
+Data Requirements:
+
+CSV File: The code assumes a CSV file named "Reviews.csv" containing the review data. This file should have a column named "Review" that stores the actual text content of each review.
+Data Quality: Ideally, the review data should be clean and consistent. Missing values, duplicates, and irrelevant information might need to be addressed before processing.
